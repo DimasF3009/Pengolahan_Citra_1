@@ -10,7 +10,7 @@ import cv2 as cv
 Pada line ini bermaksud untuk menginstal package python yaitu numpy dan cv2
 
 ```
-npArray = np.one((5,6))
+npArray = np.ones((5,6))
 ```
 Pada line ini kita membuat sebuah variabel array dengan ukuran 5x6 dengan value 1
 
@@ -22,7 +22,7 @@ Pada line ini kita mencetak variabel npArray
 ```
 print(npArray.dtype)
 ```
-Pada perintah ini akan menampilkan tipe data dari array "npArray"
+Pada perintah ini akan menampilkan tipe data dari array "npArray" yang beripe int64 artinya interger dengan 64 bit
 
 ```
 print(f"Nomor dari array baris = {npArray.shape[0]}")
